@@ -1,0 +1,101 @@
+
+.pocetna-container
+{
+   background-image:url('./backgr.jpg');
+    background-color: wheat;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 0;
+}
+
+.Naslov
+{
+color:rgba(245, 227, 194, 0.979);
+font-size: 90px;
+font-family:Arial, Helvetica, sans-serif;
+margin-top: -70px;
+background-color:rgba(0, 0, 0, 0.575) ;
+
+}
+
+.pocetna-container > p {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  .pocetna-Dugmici {
+    margin-top: 50px;
+  }
+  
+  .pocetna-Dugmici .btn {
+    margin: 10px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  .hover-zoom Button{
+    transition: all 0.3s ease 0s;
+  }
+  .hover-zoom Button:hover
+  {
+    transform: scale(1.25);
+  }
+
+  
+  h1:hover span{
+    
+    text-shadow: 0 0 10px #fff;
+    transition: 0.5;
+  }
+
+  
+  @media screen and (max-width: 960px) {
+    .Naslov {
+      font-size: 50px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Naslov {
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    @media screen and (max-width: 960px) {
+      .Naslov:hover span {
+        font-size: 20px;
+        text-shadow: 0 0 10px #fff;
+        margin-top: -150px;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .Naslov:hover span {
+        font-size: 20px;
+        text-shadow: 0 0 10px #fff;
+        margin-top: 20px;
+      }
+    }
+    .pocetna-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+   
+  }
+  
